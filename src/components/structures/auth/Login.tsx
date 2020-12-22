@@ -596,10 +596,10 @@ export default class LoginComponent extends React.PureComponent<IProps, IState> 
                     </h2>
                     { errorTextSection }
                     { serverDeadSection }
-                    <ServerPicker
+                    {/* <ServerPicker
                         serverConfig={this.props.serverConfig}
                         onServerConfigChange={this.props.onServerConfigChange}
-                    />
+                    /> */}
                     { this.renderLoginComponentForFlows() }
                     { footer }
                 </AuthBody>
