@@ -127,7 +127,7 @@ const HomePage: React.FC<IProps> = ({ justRegistered = false }) => {
                     { _t("Send a Direct Message") }
                 </AccessibleButton>
                 <AccessibleButton onClick={onClickExplore} className="mx_HomePage_button_explore">
-                    { _t("Explore Public Rooms") }
+                    { Explore Circles }
                 </AccessibleButton>
                 <AccessibleButton onClick={onClickNewRoom} className="mx_HomePage_button_createGroup">
                     { _t("Create a Group Chat") }
