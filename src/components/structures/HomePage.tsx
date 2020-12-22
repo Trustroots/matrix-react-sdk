@@ -113,7 +113,8 @@ const HomePage: React.FC<IProps> = ({ justRegistered = false }) => {
         introSection = <React.Fragment>
             <img src={logoUrl} alt={config.brand} />
             <h1>{ _t("Welcome to %(appName)s", { appName: config.brand }) }</h1>
-            <h4>{ _t("Liberate your communication") }</h4>
+            <h4> If you are searching for hosts please look at 
+            <a href="https://trustroots.org/search" target="_blank" rel="noreferrer noopener"> the hosts map </a> </h4>
         </React.Fragment>;
     }
 
