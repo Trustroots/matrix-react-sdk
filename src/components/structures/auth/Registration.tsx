@@ -586,12 +586,12 @@ export default class Registration extends React.Component<IProps, IState> {
                 <h2>{ _t('Create account') }</h2>
                 { errorText }
                 { serverDeadSection }
-                <ServerPicker
+                {/*  <ServerPicker
                     title={_t("Host account on")}
                     dialogTitle={_t("Decide where your account is hosted")}
                     serverConfig={this.props.serverConfig}
                     onServerConfigChange={this.state.doingUIAuth ? undefined : this.props.onServerConfigChange}
-                />
+                /> */}
                 { this.renderRegisterComponent() }
                 { goBack }
                 { signIn }
